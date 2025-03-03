@@ -2,9 +2,7 @@ import "./App.css";
 const Card = () => {
   return (
     <div>
-      <h2>
-        Card <Component></Component>
-      </h2>
+      <h2>Card Component</h2>
     </div>
   );
 };
@@ -12,7 +10,7 @@ const Card = () => {
 const App = () => {
   return (
     <>
-      <h2>Functional Arrow Component</h2>;
+      <h2>Functional Arrow Component</h2>
       <Card />
       <Card />
       <Card />
